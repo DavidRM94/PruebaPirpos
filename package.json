@@ -1,0 +1,40 @@
+{
+  "name": "pruebaPirpos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "webpack": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "axios": "^0.21.1",
+    "babel-core": "^6.26.3",
+    "cors": "^2.8.5",
+    "css-loader": "^6.2.0",
+    "express.js": "^1.0.0",
+    "filepond": "^4.28.2",
+    "mongoose": "^5.13.3",
+    "sharp": "^0.28.3",
+    "vue-englishdatepicker": "^0.1.1",
+    "vue-filepond": "^7.0.0",
+    "vue3-datepicker-lite": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.12",
+    "vue": "^2.6.14",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
